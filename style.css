@@ -1,0 +1,16 @@
+img {
+    width: 300px;
+    margin: 30px;
+}
+
+
+.vegito:hover {
+    border: 5px solid blue;
+    background: color lightblue;
+}
+
+body {
+    background-color: lightblue;
+    text-align: left;
+}
+
