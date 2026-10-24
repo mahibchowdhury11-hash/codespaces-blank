@@ -1,16 +1,88 @@
 img {
     width: 300px;
     margin: 30px;
+    transition: transform 0.3s ease-in-out;
+    border: 10px ridge rgb(0, 0, 0);
+}
+
+img:hover {
+    border-radius: 50px;
+    border: 10px ridge red;
+    transform: translateY(-10px)
 }
 
 
-.vegito:hover {
-    border: 5px solid blue;
-    background: color lightblue;
-}
 
 body {
-    background-color: lightblue;
+    background-color: grey;
     text-align: left;
 }
 
+
+.main {
+font-size: 30px;
+display: flex;
+flex-direction: column;
+font-family: cursive;
+}
+
+h3 {
+display: flex;
+transition: transform 0.3s ease-in-out;
+color: blue;
+}
+
+h3:hover {
+font-family: cursive;
+border:5px ridge blue;
+font-size: 30px;
+transform: translateY(-5px)
+}
+
+
+h1 {
+    font-family: cursive;
+    transition: transform 0.3s ease-in-out;
+}
+
+h1:hover {
+    size: 35px;
+    display: flex;
+    transform: translateY(-15px)
+}
+
+h2 {
+    font-family: cursive;
+}
+
+figure {
+    font-family: cursive;
+}
+
+p {
+    font-family: cursive;
+}
+
+li {
+    font-size: 30px;
+}
+
+.python {
+    background-color: skyblue;
+}
+
+.python1 {
+    background-color: yellow;
+}
+
+.brawlhalla {
+    background-color: rgb(76, 175, 170)
+}
+
+.south {
+    background-color: red;
+}
+
+.basketball {
+    background-color: orange;
+}
