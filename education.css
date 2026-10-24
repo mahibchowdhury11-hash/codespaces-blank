@@ -1,0 +1,16 @@
+img:hover {
+    border: 5px solid rgb(255, 0, 0);
+    width: 400px;
+}
+
+body {
+    background-color: green;
+}
+
+img {
+    width: 300px;
+}
+
+.bangladesh {
+    background-color: red;
+}
